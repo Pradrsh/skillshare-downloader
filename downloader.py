@@ -28,7 +28,7 @@ class Downloader(object):
             return False
 
     def download_course_by_url(self, url):
-        m = re.match(r'https://www.skillshare.com/classes/.*?/(\d+)', url)
+        m = re.match(r'https://www.skillshare.com/en/classes/.*?/(\d+)', url)
 
         if not m:
             raise Exception('Failed to parse class ID from URL')
