@@ -12,11 +12,3 @@ This script will not handle login for you.
 2. Use a cookie manager browser extension and get your PHPSESSID cookie from the skillshare website.
 
 3. Copy-paste PHPSESSID cookie into example.py script.
-
-#### Example:
-```
-from downloader import Downloader
-
-cookie = "PHPSESSID=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-
-dl = Downloader(cookie=cookie)
